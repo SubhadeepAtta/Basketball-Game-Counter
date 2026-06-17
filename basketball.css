@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Digital7';
+  src: url('./fonts/digital-7.ttf') format('truetype');
+}
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 0, 80);;
+}
+.game{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 130px;
+  border: 2px dotted rgb(255, 255, 255);
+  margin-top: 100px;
+  color: antiquewhite;
+}
+.btn{
+  padding: 10px 15px;
+  background-color: rgb(0, 0, 80);
+  font-family: 'Digital7', monospace;
+  border-color: white;
+  border-width: 1px;
+  color: white;
+  border-radius: 5px;
+  
+}
+.score{
+    
+    background-color: rgb(0, 0, 0);
+    padding: 40px 40px;
+    color: red;
+    font-family: 'Digital7', monospace;
+    font-size: 50px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
